@@ -1,27 +1,35 @@
-## **Purpose of Analysis**:
-Analysing the characteristics of normal/abnormal values over time with the main data of the automatic system obtained from the sensor, the goal is to automatically detect the presence of a specific issue with the engine.<br>
-├── Mutlivariate (multivariate time series algorithms)<br>
-│   ├── Euclidean vs. Mahalanobis (evaluate different distance measures for multivariate time series)
-│   ├── ML (machine learning approaches for univariate time series)
-│   │   ├── NASA (Evaluation of the ML algo on the NASA Shuttle dataset - refer to 4.2 in the thesis)
-│   │   ├── SD (Evaluation of the ML algo on the synthetic data)
-│   │   └── SMTP (Evaluation of the ML algo on the SMTP Dataset)
-│   ├── Neural Networks (neural network approaches for univariate time series)
-│   │   ├── NASA (Evaluation of the neural network approaches on the NASA Shuttle dataset - refer to 4.2 in the thesis)
-│   │   ├── SD (Evaluation of the neural network approaches on the synthetic data)
-│   │   └── SMTP (Evaluation of the neural network approaches on the SMTP Dataset)
-│   └── Statistical   (statistical approaches for univariate time series)
-│       ├── NASA (Evaluation of the statistical approaches on the NASA Shuttle dataset - refer to 4.2 in the thesis)
-│       ├── SD (Evaluation of the statistical approaches on the synthetic data)
-│       └── SMTP (Evaluation of the statistical approaches on the SMTP Dataset)
-└── Univariate   (univariate time series algorithms)
-    ├── ML (machine learning approaches for univariate time series)
-    │   ├── NYCT (Evaluation of the ML algo on the NYCT Dataset)
-    │   └── UD1_UD4 (Evaluation of the ML algo on the UD1-UD4 datasets - refer to 4.2 in the thesis)
-    ├── Neural Networks (neural network approaches for univariate time series)
-    │   ├── NYCT (Evaluation of the neural network approaches on the NYCT Dataset)
-    │   └── UD1_UD4 (Evaluation of the neural network approaches on the UD1-UD4 datasets - refer to 4.2 in the thesis)
-    └── Statistical   (statistical approaches for univariate time series)
-        ├── NYCT (Evaluation of the statistical approaches on the NYCT Dataset)
-        └── UD1_UD4 (Evaluation of the statistical approache on the UD1-UD4 datasets - refer to 4.2 in the thesis)
+## **Purpose of Analysis**
 
+Analyzing the characteristics of normal/abnormal values over time with the main data from the automatic system obtained from the sensor, the goal is to automatically detect the presence of a specific issue with the engine.
+
+### Multivariate 
+- Multivariate time series algorithms
+  - **Euclidean vs. Mahalanobis**: Evaluate different distance measures for multivariate time series
+  - **ML** (Machine Learning approaches for univariate time series)
+    - **NASA**: Evaluation of the ML algo on the NASA Shuttle dataset (refer to 4.2 in the thesis)
+    - **SD**: Evaluation of the ML algo on the synthetic data
+    - **SMTP**: Evaluation of the ML algo on the SMTP Dataset
+  - **Neural Networks**
+    - Neural network approaches for univariate time series
+      - **NASA**: Evaluation of the neural network approaches on the NASA Shuttle dataset (refer to 4.2 in the thesis)
+      - **SD**: Evaluation of the neural network approaches on the synthetic data
+      - **SMTP**: Evaluation of the neural network approaches on the SMTP Dataset
+  - **Statistical**
+    - Statistical approaches for univariate time series
+      - **NASA**: Evaluation of the statistical approaches on the NASA Shuttle dataset (refer to 4.2 in the thesis)
+      - **SD**: Evaluation of the statistical approaches on the synthetic data
+      - **SMTP**: Evaluation of the statistical approaches on the SMTP Dataset
+  
+### Univariate   
+- Univariate time series algorithms
+  - **ML** (Machine Learning approaches for univariate time series)
+    - **NYCT**: Evaluation of the ML algo on the NYCT Dataset
+    - **UD1_UD4**: Evaluation of the ML algo on the UD1-UD4 datasets (refer to 4.2 in the thesis)
+  - **Neural Networks**
+    - Neural network approaches for univariate time series
+      - **NYCT**: Evaluation of the neural network approaches on the NYCT Dataset
+      - **UD1_UD4**: Evaluation of the neural network approaches on the UD1-UD4 datasets (refer to 4.2 in the thesis)
+  - **Statistical**
+    - Statistical approaches for univariate time series
+      - **NYCT**: Evaluation of the statistical approaches on the NYCT Dataset
+      - **UD1_UD4**: Evaluation of the statistical approaches on the UD1-UD4 datasets (refer to 4.2 in the thesis)
